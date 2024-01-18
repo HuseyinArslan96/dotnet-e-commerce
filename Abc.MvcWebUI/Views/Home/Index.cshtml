@@ -1,0 +1,24 @@
+﻿@using Abc.MvcWebUI.Models;
+@model IEnumerable<ProductModel>
+@{
+    ViewBag.Title = "Index";
+}
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-3" style="color:white"><b>E-Ticaret</b></h1>
+        <p class="lead" style="color:white"><b>
+    E-ticaret; 1995 yılından sonra internet kullanımının artmasıyla ortaya çıkan, ticaretin elektronik ortamda yapılmasını ifade eden kavramdır.
+    Mal ve hizmetlerin bilgisayar ortamında internet yoluyla alınıp satılmasıdır.</b>
+        </p>
+        <hr class="my-4">
+        <p style="color:white">Bir e-ticaret sitesi, ürün ve hizmetlerin bilgisayar ağları üzerinden alınıp satılabildiği çevrimiçi mağazadır.</p>
+    </div>
+</div>
+
+
+<div class="container pb-5">
+    @Html.Partial("_ProductList", Model)
+</div>
+
+
+
