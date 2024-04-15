@@ -9,7 +9,7 @@ siparişi takip edebiliyor.
 # ASP.NET E-Commerce Site Project
 An e-commerce site prototype built with MVC design pattern, using C# programming language and ORM technique via Entity Framework on ASP.NET platform:
 On this site, users can create memberships and
-After creating, you can review the products and order them,
+after creating, you can review the products and order them,
 add or remove any product they want from the cart
 can do so, view the total order amount,
 can track the order.
